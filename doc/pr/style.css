@@ -1,9 +1,9 @@
 /* Variáveis */
 :root {
+  --azulClaro: #9cdcfe;
   --branco: #fff;
   --cinzaClaro: #e8e8e8;
-  --cinzaMedio: #a1a1a1;
-  --cinzaEscurobkp: #434343;
+  --cinzaMedio: #a1a1a1;  
   --cinzaEscuro: #343538;
   --dourado: #FFC90E;
   --laranja: #E44D26;
@@ -115,12 +115,12 @@ body {
 /* Cabeçalho */
 header {
   height: 60px;
+  background-color: var(--preto);
 }
 
 #logo img {
-  width: 195.8px;
-  height: 122.6px;
-  margin-top: 10px;
+  width: 128px;
+  height: 128px;
 }
 
 #check {
@@ -132,12 +132,12 @@ label {
   position: fixed;
   top: 5px;
   right: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(156, 220, 254, 0.5);
 }
 
 nav ul {
   list-style: none;
-  background-color: rgba(52, 53, 56, 0.95);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 100vh;
   position: fixed;
   top: 60px;
@@ -152,19 +152,19 @@ nav ul {
 
 nav ul li {
   padding: 20px;
-  border-bottom: 1px solid var(--cinzaMedio);
+  border-bottom: 1px solid var(--cinzaEscuro);
   text-align: right;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: var(--branco);
+  color: var(--azulClaro);
 }
 
 /* Destaque */
 main {
-  height: 45vh;
-  background: url(img/banner2.jpg);
+  height: 50vh;
+  background: url(img/banner.jpg);
   background-size: cover;
   background-position: center;
   color: var(--branco);
@@ -403,13 +403,12 @@ footer p {
 
   /* Cabeçalho */
   header {
-    height: 135px;
+    height: 100px;
   }
 
   #logo img {
-    width: 277.3px;
-    height: 173.6px;
-    margin-top: 45px;
+    width: 194px;
+    height: 194px;
   }
 
   label {
@@ -421,7 +420,7 @@ footer p {
     width: 100%;
     height: auto;
     background-color: transparent;
-    margin-top: 40px;
+    margin-top: 25px;
   }
 
   nav ul li {
@@ -430,16 +429,16 @@ footer p {
   }
 
   nav ul li a {
-    color: var(--cinzaEscuro);
+    color: var(--azulClaro);
   }
 
   nav ul li a:hover {
-    color: var(--laranja);
+    color: var(--dourado);
   }
 
   /* Destaque */
   main {
-    height: 50vh;
+    height: 90vh;
   }
 
   main h1 {
