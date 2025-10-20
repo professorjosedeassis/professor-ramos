@@ -1,0 +1,68 @@
+/**
+    Folha de estilo do site professorramos.com
+    @author Professor José de Assis
+    @link https://joseassis.com.br
+*/
+
+/* Layout >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Variáveis */
+:root {
+    --azulClaro: #9cdcfe;
+    --azulMedio: #3498db;
+    --branco: #fff;
+    --cinzaClaro: #e8e8e8;
+    --cinzaMedio: #a1a1a1;
+    --cinzaEscuro: #343538;
+    --dourado: #ffc90e;
+    --preto: #000;
+    --rosa: #bc82b6;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Fim - Layout <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Smartphone portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Fim - Smartphone portrait <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Smartphone landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {}
+
+/* Fim - Smartphone landscape <<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Tablet portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {}
+
+/* Fim - Tablet portrait <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {}
+
+/* Fim - Tablet landscape <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Notebook / PC - HD >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {}
+
+/* Fim - Notebook / PC - HD <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Notebook / PC / TV - Full HD ou 4K >>>>>>>>>>>>>>>>>> */
+@media (min-width: 1400px) {}
+
+/* Fim Notebook / PC / TV - Full HD ou 4K <<<<<<<<<<<<< */
